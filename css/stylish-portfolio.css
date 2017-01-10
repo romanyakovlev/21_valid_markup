@@ -160,6 +160,20 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header-your-house {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.header-agency {
+    margin-top: 20;
+    margin-bottom: 10;
+    font-weight: 500;
+    font-size: 24;
+}
+
 /* About */
 
 .about {
@@ -218,9 +232,9 @@ hr.small {
     margin: 10px;
 }
 
-/* Map */
+/* Your house */
 
-.map {
+.map, #your-house {
     height: 500px;
 }
 
@@ -234,4 +248,10 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+.footer-our-office {
+    font-size: 30;
+    margin-top: 40;
+    margin-bottom: 20;
 }
