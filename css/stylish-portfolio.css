@@ -127,6 +127,11 @@ hr.small {
     right: 0;
 }
 
+#menu-close {
+    position: relative;
+    z-index: 1001;
+}
+
 #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
