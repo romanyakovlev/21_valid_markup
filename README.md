@@ -1,6 +1,8 @@
 # Site of Real Estate Agency
 
-[TODO. There will be project description]
+Исправленная верстка сайта Агенства недвижимости.
+
+# [Ссылка](https://romanyakovlev.github.io/21_valid_markup/)
 
 # Project Goals
 
