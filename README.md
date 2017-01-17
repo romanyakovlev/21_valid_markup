@@ -1,6 +1,6 @@
 # Site of Real Estate Agency
 
-Исправленная верстка сайта Агентства недвижимости.
+Репозиторий сайта Агентства недвижимости.
 
 # [Ссылка](https://romanyakovlev.github.io/21_valid_markup/)
 
