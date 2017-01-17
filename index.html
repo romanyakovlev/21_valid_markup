@@ -152,22 +152,7 @@
                      </div>
                     <div id="map" class="map"></div>
     </section>
-    <script type="text/javascript">
-      ymaps.ready(init);
-      function init(){
-        var map = new ymaps.Map("map", {
-                center: [55.740684, 37.618174],
-                zoom: 15
-            });
-        map.behaviors.disable('scrollZoom');
-        placemark = new ymaps.Placemark([55.740684, 37.618174], {
-          hintContent: 'Твой Дом',
-          balloonContentHeader: 'Твой Дом',
-          balloonContentBody: 'Москва, Старомонетный переулок, 10'
-        });
-        map.geoObjects.add(placemark);
-      }
-    </script>
+
 
     <!-- Footer -->
     <footer>
@@ -196,8 +181,33 @@
         </div>
     </footer>
 
+    <!-- JavaScript-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+    <!-- Yandex Maps-->
+
+    <script type="text/javascript">
+      ymaps.ready(init);
+      function init(){
+        var map = new ymaps.Map("map", {
+                center: [55.740684, 37.618174],
+                zoom: 15
+            });
+        map.behaviors.disable('scrollZoom');
+        placemark = new ymaps.Placemark([55.740684, 37.618174], {
+          hintContent: 'Твой Дом',
+          balloonContentHeader: 'Твой Дом',
+          balloonContentBody: 'Москва, Старомонетный переулок, 10'
+        });
+        map.geoObjects.add(placemark);
+      }
+    </script>
 
     <!-- Custom Theme JavaScript -->
+    
     <script>
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
@@ -228,12 +238,6 @@
         });
     });
     </script>
-
-    <!-- JavaScript-->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 
 </body>
 
